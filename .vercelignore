@@ -1,0 +1,41 @@
+# Ignore node_modules - Vercel installs dependencies fresh
+node_modules/
+
+# Ignore build output folders if any
+dist/
+build/
+
+# Ignore public folder if you don't use it
+public/
+
+# Ignore local config and env files
+.vscode/
+.env
+.env.local
+.env.*.local
+
+# Ignore test files
+src/**/*.test.tsx
+src/**/*.spec.tsx
+src/**/*.test.ts
+src/**/*.spec.ts
+
+# Ignore logs and misc files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore lock files if you prefer to manage them manually (optional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore .git directory (always recommended)
+.git/
+
+# Ignore IDE/editor config files
+*.sublime-project
+*.sublime-workspace
+.idea/
